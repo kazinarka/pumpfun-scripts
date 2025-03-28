@@ -1,0 +1,47 @@
+{
+  "name": "pumpdotfun-sdk",
+  "version": "1.1.0",
+  "description": "A simple SDK for interacting with pumpdotfun",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start1": "npx ts-node scripts/script1.ts",
+    "start2": "npx ts-node scripts/script2.ts",
+    "start3": "npx ts-node scripts/script3.ts",
+    "start4": "npx ts-node scripts/script4.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rckprtr/pumpdotfun-sdk.git"
+  },
+  "keywords": [
+    "pumpdotfun",
+    "sdk",
+    "solana"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20.14.1",
+    "dotenv": "^16.4.5",
+    "js-sha256": "^0.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@debridge-finance/solana-transaction-parser": "^3.0.0-rc.0",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.1",
+    "@types/bs58": "^4.0.4",
+    "csvtojson": "^2.0.10",
+    "jito-ts": "^3.0.1",
+    "rpc-websockets": "7.11.0",
+    "@fleekxyz/sdk": "^1.4.2"
+  }
+}
