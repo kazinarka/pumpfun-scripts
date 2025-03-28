@@ -2,7 +2,11 @@
 
 >Just created Create-n-buy bundled V2 (script4) - which allows sending 2 bundles in adjacent blocks. Minimizing the possibility of sniper transaction slippage.
 
-# Contact me (for full code, updated SDK and set up help)
+# Contact me
+- full code
+- full updated SDK
+- end to end help
+- any private offers
 ### Telegram
 > https://t.me/kazinarka
 
